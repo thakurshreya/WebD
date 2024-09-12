@@ -1,0 +1,199 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #151413;
+    color: #ddd;
+}
+
+header {
+    background-color: #201e1c;
+    color: white;
+    text-align: center;
+    padding: 0.5em 0;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+#Logo01 {
+    height: 110px; 
+    top: 40%;
+    
+    
+}
+#about {
+    background-image: url('images/background01.png'); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 20px;
+    color: white(252, 251, 251); 
+    backface-visibility: visible;
+}
+
+nav {
+    position: fixed; 
+    width: 100%;     
+    top: 0;           
+    text-align: right;         
+    background-color: rgba(0, 0, 0, 0.421);
+    z-index: 1000;    
+  }
+  
+  nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  }
+  
+  nav li {
+      display: inline;
+      margin-right: 20px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ddd;
+    color: rgb(151, 13, 13);
+  }
+
+#pic1,#pic2,#pic3,#pic4,#pic5,#pic6,#pic7,#pic8,#pic9,#pic10,#pic11,#pic12,#pic13,#pic14,#pic15,#pic16,#pic17,#pic18{
+    width: 230px;
+
+}
+#audio{
+    width: 20cm;
+}
+#video{
+    width: 800px;
+    
+
+}
+
+nav menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    margin: 2em;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    background-color: #201e1c;
+    /* margin: 5px 0; */
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+audio, video {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+details {
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    
+    bottom: 0;
+    width: 100%;
+    padding: 1em 0;
+}
+
+.news-ticker {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.news-ticker p {
+    display: inline-block;
+    padding: 0.5em;
+    animation: scroll-news 30s linear infinite;
+    text-size-adjust: 10;
+    background-color: #902f2f;
+    background-position-x: center;
+    
+}
+
+@keyframes scroll-news {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+#home img {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 1;
+}
+
+#home img:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 0.5px solid #010101;
+}
+
+th {
+    background-color: #890a0a; 
+    color: white;
+}
+
+tr:nth-child(all) {
+    background-color: #2e312f; 
+}
+
+tr:hover {
+    background-color: #090808; 
+}
+
+button{
+    width: 100px ;
+    height: 30px;
+    background-color: rgb(221, 152, 152);
+    color: #010101;
+    border: #e01818;
+    text-align: center
+    
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea,
+#contact select {
+    width: 100%; 
+    padding: 10px; 
+    margin: 5px 0; 
+    border: 1px solid #8e3939; 
+    border-radius: 4px; 
+    font-size: 14px; 
+    font-family: 'Arial', sans-serif; 
+}
+
