@@ -13,12 +13,12 @@ A little icon connected with the page is often displayed in the browser's addres
 list. This website features the fashion fix logo.
 
 ## Table:
-Used for displaying tabular data. The table is created with '<table>', table rows are represented by '<tr>', header cells by '<th>', 
-and data cells by '<td>'.
+Used for displaying tabular data. The table is created with ```<table>```, table rows are represented by ```<tr>```, header cells by ```<th>```, 
+and data cells by ```<td>```.
 
 ## Form:
-Gathers user input. '<form>' specifies the form, '<label>' describes input fields, '<input>' and '<textarea>' allow user input, 
-'<select>' and '<option>' generate a dropdown list, and '<button>' submits the form.
+Gathers user input. ```<form>``` specifies the form, ```<label>``` describes input fields, ```<input>``` and ```<textarea>``` allow user input, 
+```<select>``` and ```<option>``` generate a dropdown list, and ```<button>``` submits the form.
 
 ## Images:
 Displays photos on the website. There are 21 photos presented here, along with background images and logos.
@@ -43,7 +43,7 @@ Describes introductory text or navigational connections.
 Contains information that is commonly seen at the bottom of a page, such as contact information or copyrights.
 
 ## Summary:
-This specifies a visible header for a '<details>' element, which is used for interactive widgets that users can open and close. The 
+This specifies a visible header for a ```<details>``` element, which is used for interactive widgets that users can open and close. The 
 About section has a summary element.
 
 ## Menu:
